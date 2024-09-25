@@ -8,7 +8,7 @@ const navlink = [
 		href: '/solution',
 	},
 	{
-		label: 'Gallereya',
+		label: 'Galereya',
 		href: '/gallery',
 	},
 	// {
@@ -28,17 +28,17 @@ const navlink = [
 const advantages = [
 	{
 		title: 'Ishlab chiqarish',
-		description: `Biz O'zbekistonning sanoat salohiyatiga o'z hissamizni qo'shmoqdamiz`,
+		description: `O'zbekistonning sanoat salohiyatiga xissa qo'shamiz`,
 		photo: './icon3.png',
 	},
 	{
 		title: 'Loyihalash va o`rnatish',
-		description: 'Quyosh elektr stantsiyalarini o`rnatamiz',
+		description: 'Quyosh elektr stantsiyalarini o`rnatamiz va ta`mirlaymiz',
 		photo: './icon2.png',
 	},
 	{
 		title: 'Kafolatlangan sifat',
-		description: 'Har bir loyihaga ma`sulyat',
+		description: 'Har bir loyihaga ma`sulyat bilan yondashamiz',
 		photo: './icon3.png',
 	},
 ]

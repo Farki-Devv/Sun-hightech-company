@@ -133,7 +133,7 @@ function Home() {
 									</div>
 									<div className='flex-grow pl-4'>
 										<h2 className='font-medium title-font text-sm text-gray-900 mb-1 tracking-wider'>
-											Mahsulotlarimz
+											Mahsulot va Xizmatlarimiz
 										</h2>
 										<p className='leading-relaxed'>
 											Quyosh elektr stantsiyasi qismlari, Quyosh modullari ,
@@ -188,7 +188,7 @@ function Home() {
 				<div className='max-w-7xl mx-auto h-96 card p-10'>
 					<div className='flex flex-col gap-4'>
 						<span className='max-md:text-2xl text-3xl'>
-							Ko`proq ma'lumot oling
+							Biz bilan bog'laning
 						</span>
 						<div className='flex gap-10'>
 							<Input

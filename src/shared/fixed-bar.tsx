@@ -1,14 +1,10 @@
-import { Button } from '@/components/ui/button'
-
 // this components for Home page
 function FixedBar() {
 	return (
-		<div className='bg-white max-w-9xl h-28 mx-auto shadow-2xl rounded-lg flex justify-between flex-wrap px-10 md:px-24 items-center card'>
+		<div className='bg-white max-w-7xl h-28 mx-auto shadow-2xl rounded-lg flex justify-between flex-wrap px-10 md:px-24 items-center card'>
 			<span className='flex flex-col items-start gap-1 font-grotesk text-primary text-xl max-sm:text-sm'>
 				Tajriba
-				<span className='text-gray-400 text-lg max-sm:text-sm'>
-					10+ yil
-				</span>
+				<span className='text-gray-400 text-lg max-sm:text-sm'>10+ yil</span>
 			</span>
 			<span className='flex flex-col items-start gap-1 font-grotesk text-primary text-xl max-sm:text-sm'>
 				Aloqa raqami
@@ -19,10 +15,9 @@ function FixedBar() {
 			<span className='flex flex-col items-start gap-1 font-grotesk text-primary text-xl max-md:hidden'>
 				Texnik ko'mak
 				<span className='text-gray-400 text-lg'>
-					Mijozlarni 24/7 qo'llab quvvatlaydi{' '}
+					Mijozlarni 24/7 qo'llab quvvatlaymiz
 				</span>
 			</span>
-			<Button className='max-md:hidden'>Yangiliklar</Button>
 		</div>
 	)
 }

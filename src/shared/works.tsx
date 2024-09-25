@@ -5,10 +5,9 @@ import { advantages } from '@/constants'
 function Works() {
 	return (
 		<div className='grid grid-cols-1 max-w-9xl mx-auto gap-4'>
-			<span className='text-primary text-lg font-roboto font-bold text-center'>
-			</span>
+			<span className='text-primary text-lg font-roboto font-bold text-center'></span>
 			<span className='text-5xl font-inter font-semibold text-center'>
-				Bizning avzalliklar
+				Bizning avzalliklarimiz
 			</span>
 			<div className='grid space-y-2 lg:grid-cols-2 xl:grid-cols-3 items-center place-items-center font-montserrat'>
 				{advantages.map(item => (
