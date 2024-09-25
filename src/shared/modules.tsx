@@ -1,4 +1,3 @@
-import { Button } from '@/components/ui/button'
 import { modules } from '@/constants'
 import { BadgeCheck } from 'lucide-react'
 
@@ -6,36 +5,32 @@ import { BadgeCheck } from 'lucide-react'
 function Modules() {
 	return (
 		<div className='grid grid-cols-1'>
-			<div className='space-y-4'>
+			<div className='max-w-9xl grid max-md:grid-cols-1 max-lg:grid-cols-2 grid-cols-3 mx-auto gap-2 '>
 				{modules.map(item => (
-					<div
-						key={item.kva}
-						className='flex justify-around max-w-7xl mx-auto  bg-gradient-to-l from-blue-400/10 rounded-xl px-10 py-1'
-					>
-						<img src={item.photo} alt='' className='w-64' />
-						<div className='flex justify-around gap-10'>
-							<div className='flex flex-col gap-6'>
-								<div className='flex gap-4 items-center'>
-									<span className='text-4xl text-primary max-md:text-center font-roboto font-bold'>
-										{item.title}
-									</span>
-									<Button className='text-sm' size={'sm'}>
-										{item.kva}
-									</Button>
-								</div>
-								<span className='text-lg max-md:ext-center'>
-									{item.description}
-								</span>
-							</div>
-							<div className='grid grid-cols-2 gap-x-16 gap-y-4'>
-								{item.data.map(item => (
-									<span className='flex gap-2'>
-										<BadgeCheck className='text-primary' />
-										{item}
-									</span>
-								))}
-							</div>
+					<div className='p-4 space-y-4 border rounded hover:scale-110 card transition-all hover:z-50'>
+						<div className='rounded-lg w-60 h-52 m-auto overflow-hidden'>
+							<img
+								alt='content'
+								className='object-cover object-center'
+								src={item.photo}
+							/>
 						</div>
+						<h2 className='text-xl font-medium title-font text-gray-900 mt-5'>
+							{item.title}
+						</h2>
+						<p className='text-base leading-relaxed mt-2'>
+							{item.description.slice(0, 300)}
+						</p>
+						<a className='text-primary grid grid-cols-3 space-y-1'>
+							{item.data.map(item => (
+								<span key={item} className='grid grid-cols-3'>
+									<span className='grid grid-cols-2 items-center max-lg:gap-1'>
+										<BadgeCheck className='size-4' />
+										<span className='max-md:text-sm'>{item}</span>
+									</span>
+								</span>
+							))}
+						</a>
 					</div>
 				))}
 			</div>

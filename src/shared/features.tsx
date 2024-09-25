@@ -5,7 +5,6 @@ function Features() {
 	return (
 		<div className='grid grid-cols-1 space-y-4'>
 			<span className='text-lg text-primary text-center font-bold font-roboto'>
-				Kelajak
 			</span>
 			<span className='text-5xl text-center font-semibold font-inter'>
 				Yangiliklar
@@ -14,7 +13,7 @@ function Features() {
 				{features.map(item => (
 					<div
 						key={item.name}
-						className='bg-white shadow-2xl flex flex-col rounded-md p-4 place-items-center border card'
+						className='bg-white shadow-2xl flex flex-col rounded-md p-4 place-items-center border card hover:scale-110 transition-all hover:z-50'
 					>
 						<img src={item.photo} alt='' />
 						<span className='text-primary text-2xl font-medium font-roboto'>

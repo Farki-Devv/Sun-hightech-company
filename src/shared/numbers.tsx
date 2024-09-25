@@ -4,9 +4,7 @@ import { numbers } from '@/constants'
 function Numbers() {
 	return (
 		<div className='grid grid-cols-1 space-y-4'>
-			<span className='text-lg text-primary text-center font-bold font-roboto'>
-				Rivojlanish
-			</span>
+			<span className='text-lg text-primary text-center font-bold font-roboto'></span>
 			<span className='text-5xl text-center font-semibold font-inter'>
 				SUN-HIGHTECH raqamlarda
 			</span>
@@ -14,7 +12,7 @@ function Numbers() {
 				{numbers.map(item => (
 					<div
 						key={item.name}
-						className='bg-white shadow-2xl flex flex-col rounded-md p-4 place-items-center'
+						className='bg-white shadow-2xl flex flex-col rounded-md p-4 place-items-center card hover:scale-110 transition-all hover:z-50'
 					>
 						<img src={item.photo} alt='' />
 						<span className='text-primary text-2xl font-medium font-roboto'>

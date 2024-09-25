@@ -11,10 +11,10 @@ const navlink = [
 		label: 'Gallereya',
 		href: '/gallery',
 	},
-	{
-		label: 'Ishlarimz',
-		href: '/work',
-	},
+	// {
+	// 	label: 'Ishlarimz',
+	// 	href: '/work',
+	// },
 	{
 		label: 'Buyurtma',
 		href: '/order',
@@ -46,45 +46,24 @@ const advantages = [
 const modules = [
 	{
 		title: 'Quyosh modullari',
-		description: 'Quyosh elektr stantsiyasi qismlari',
-		kva: '4KVA',
+		description: `Quyosh xujayrasi - bu yorug'lik energiyasini to'g'ridan-to'g'ri elektr energiyasiga aylantiruvchi moslama. U yarimo'tkazgich materiallaridan tayyorlangan. Quyosh nurlarining nurlanishi orqali elektron teshik juftlari hayajonlanadi va PN birikma to'siq mintaqasining elektrostatik maydoni elektron teshik juftlarini ajratish uchun ishlatiladi. Ajratilgan elektronlar va teshiklar yig'ilib, elektrod orqali batareyaning tashqi tomoniga oqim hosil qilish uchun chiqariladi',
+		kva: '4KVA`,
 		photo: './solar.png',
-		data: [
-			'Experienced',
-			'Reliable',
-			'Sustainable',
-			'Affordable',
-			'Customizable',
-			'Trustworthy',
-		],
+		data: ['Kafolat', 'Sifatli', 'Xizmat', 'Narx', 'Ixcham', 'Loyihalash'],
 	},
 	{
 		title: 'Quyosh suv nasosi',
-		description: 'Quyosh elektr stantsiyasi qismlari',
+		description: `Quyosh suv nasoslari mexanikada nisbatan yangi tushunchadir. Quyoshli nasos tizimi odatda uy-joy va tijorat maqsadlarida, shuningdek qishloq xo'jaligi erlarini sug'orishda uchraydi.Quyosh panellari orqali, nasos energiya narxini yo'q qilishi va suvni quyish uchun quyosh energiyasidan (va yonilg'i yoqadigan mexanizmlardan emas) foydalanadigan yanada maqbul variantni taqdim qilishi mumkin`,
 		kva: '4KVA',
 		photo: './water.png',
-		data: [
-			'Experienced',
-			'Reliable',
-			'Sustainable',
-			'Affordable',
-			'Customizable',
-			'Trustworthy',
-		],
+		data: ['Kafolat', 'Sifatli', 'Xizmat', 'Narx', 'Ixcham', 'Loyihalash'],
 	},
 	{
 		title: 'Quyosh suv isitgichlari',
-		description: 'Quyosh elektr stantsiyasi qismlari',
+		description: `Quyosh suv isitgichi - bu quyosh termal kollektori yordamida suvni isitish uchun quyosh nurlarini issiqlikka aylantirish. Turli xil iqlim va kengliklarda echimlarni taqdim etish uchun har xil narxlarda turli xil konfiguratsiyalar mavjud. Quyosh suv isitgichlari turar-joy binolari va ba'zi sanoat dasturlarda keng qo'llaniladi.`,
 		kva: '4KVA',
 		photo: './heater.png',
-		data: [
-			'Experienced',
-			'Reliable',
-			'Sustainable',
-			'Affordable',
-			'Customizable',
-			'Trustworthy',
-		],
+		data: ['Kafolat', 'Sifatli', 'Xizmat', 'Narx', 'Ixcham', 'Loyihalash'],
 	},
 ]
 
@@ -119,10 +98,43 @@ const features = [
 		photo: './star.png',
 	},
 	{
-		name: '3D Texnalogiyalari v quyosh qurilmalarining kelajagi',
+		name: '3D Texnalogiyalari va quyosh qurilmalarining kelajagi',
 		description:
 			'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.',
 		photo: './colorful2.png',
 	},
 ]
-export { advantages, features, modules, navlink, numbers }
+const gallery = [
+	{
+		photo: './gallery/1.jpg',
+	},
+
+	{
+		photo: './gallery/2.jpg',
+	},
+	{
+		photo: './gallery/3.jpg',
+	},
+	{
+		photo: './gallery/4.jpg',
+	},
+	{
+		photo: './gallery/5.jpg',
+	},
+	{
+		photo: './gallery/6.jpg',
+	},
+	{
+		photo: './gallery/7.jpg',
+	},
+	{
+		photo: './gallery/8.jpg',
+	},
+	{
+		photo: './gallery/9.jpg',
+	},
+	{
+		photo: './gallery/10.jpg',
+	},
+]
+export { advantages, features, gallery, modules, navlink, numbers }
