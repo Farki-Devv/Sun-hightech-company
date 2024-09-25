@@ -105,17 +105,17 @@ const features = [
 ]
 const gallery = [
 	{
-		photo: './gallery/12foto.jpg',
-	},
-	{
 		photo: './gallery/1.jpg',
 	},
-
 	{
 		photo: './gallery/2.jpg',
 	},
+
 	{
 		photo: './gallery/3.jpg',
+	},
+	{
+		photo: './gallery/0.jpg',
 	},
 	{
 		photo: './gallery/4.jpg',
