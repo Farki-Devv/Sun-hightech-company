@@ -14,8 +14,8 @@ function Numbers() {
 						key={item.name}
 						className='bg-white shadow-2xl flex flex-col rounded-md p-4 place-items-center card hover:scale-110 transition-all hover:z-50'
 					>
-						<img src={item.photo} alt='' />
-						<span className='text-primary text-2xl font-medium font-roboto'>
+						<img src={item.photo} alt='' className='size-28' />
+						<span className='text-primary text-2xl font-medium font-roboto mt-2'>
 							{item.name}
 						</span>
 						<span className='text-sm text-gray-400'>{item.description}</span>

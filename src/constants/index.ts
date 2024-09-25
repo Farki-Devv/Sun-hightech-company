@@ -76,13 +76,13 @@ const numbers = [
 	{
 		name: '6361',
 		description: 'Quyosh ko`cha yoritgichlari',
-		photo: './numb.png',
+		photo: './light.jpeg',
 	},
 	{
 		name: '4042',
 		description:
 			'Amalga oshirilgan svetoforlar va quyosh energiyasi bilan ishlaydigan belgilar',
-		photo: './numb.png',
+		photo: './svetafor.jpeg',
 	},
 ]
 
@@ -99,12 +99,14 @@ const features = [
 	},
 	{
 		name: '3D Texnalogiyalari va quyosh qurilmalarining kelajagi',
-		description:
-			'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.',
+		description: 'Quyosh panellari',
 		photo: './colorful2.png',
 	},
 ]
 const gallery = [
+	{
+		photo: './gallery/12foto.jpg',
+	},
 	{
 		photo: './gallery/1.jpg',
 	},
@@ -135,6 +137,10 @@ const gallery = [
 	},
 	{
 		photo: './gallery/10.jpg',
+	},
+
+	{
+		photo: './gallery/13foto.jpg',
 	},
 ]
 export { advantages, features, gallery, modules, navlink, numbers }

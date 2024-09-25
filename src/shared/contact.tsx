@@ -40,7 +40,7 @@ function ContactComponent() {
 						Fikr-mulohaza
 					</h2>
 					<p className='leading-relaxed mb-5 text-gray-600'>
-						Fikr mulohazangiz va yangiliklar ni shu yerdan yuborihsingiz mumkun
+						Fikr mulohazangiz va yangiliklarni shu yerdan yuborishingiz mumkin
 					</p>
 					<div className='relative mb-4'>
 						<label htmlFor='name' className='leading-7 text-sm text-gray-600'>
