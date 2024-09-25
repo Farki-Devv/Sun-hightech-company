@@ -44,7 +44,7 @@ function Mobile() {
 				</div>
 				<Separator className='mt-2' />
 				<div className='flex flex-col px-4 mt-4 gap-2'>
-					<Button>Aloqa</Button>
+					{' '}
 					<Button variant={'outline'} className='gap-2'>
 						<Phone className='size-4 text-blue-400' /> (+998) 55 506 78 88
 					</Button>

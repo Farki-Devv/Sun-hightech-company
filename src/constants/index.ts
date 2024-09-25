@@ -11,14 +11,7 @@ const navlink = [
 		label: 'Galereya',
 		href: '/gallery',
 	},
-	// {
-	// 	label: 'Ishlarimz',
-	// 	href: '/work',
-	// },
-	{
-		label: 'Buyurtma',
-		href: '/order',
-	},
+
 	{
 		label: 'Aloqa',
 		href: '/contact',

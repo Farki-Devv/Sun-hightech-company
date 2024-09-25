@@ -6,6 +6,11 @@ import Logo from './logo'
 import Mobile from './mobile'
 
 function Navbar() {
+	const handleContact = () =>
+		window.scrollTo({
+			top: 3000,
+			behavior: 'smooth',
+		})
 	return (
 		<div className='max-w-9xl mx-auto space-y-4 '>
 			<div className='fixed mt-2 top-0 left-0 w-full z-50 '>
@@ -35,7 +40,7 @@ function Navbar() {
 						</div>
 					</div>
 					<div className='md:gap-4 hidden lg:flex'>
-						<Button>Aloqa uchun</Button>
+						<Button onClick={handleContact}>Ariza qoldiring</Button>
 						<Button variant={'outline'} className='gap-2'>
 							<Phone className='size-4 text-blue-400' />
 							(+998) 55 506 78 88
