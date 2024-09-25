@@ -18,7 +18,7 @@ function Works() {
 								{item.title}
 							</span>
 							<span className='text-center'>
-								{item.description.slice(0, 40)}
+								{item.description.slice(0, 100)}
 							</span>
 						</div>
 					</div>
