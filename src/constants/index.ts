@@ -71,7 +71,7 @@ const numbers = [
 	{
 		name: '1548',
 		description: 'Kottej va uylar uchun Quyosh elektr stantsiyalari',
-		photo: './numb.png',
+		photo: './gallery/housenumber.avif',
 	},
 	{
 		name: '6361',
