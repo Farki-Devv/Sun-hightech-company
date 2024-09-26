@@ -9,10 +9,12 @@ import {
 } from '@/components/ui/sheet'
 import { navlink } from '@/constants'
 import { Facebook, Instagram, Menu, Phone, Send, Youtube } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 import { NavLink } from 'react-router-dom'
 import Logo from './logo'
 
 function Mobile() {
+	const { t } = useTranslation()
 	return (
 		<Sheet>
 			<SheetTrigger>
@@ -38,7 +40,7 @@ function Mobile() {
 									: 'text-lg font-medium px-4 py-2 rounded-md bg-blue-400/20 text-blue-600'
 							}
 						>
-							{nav.label}
+							{t(nav.label)}
 						</NavLink>
 					))}
 				</div>

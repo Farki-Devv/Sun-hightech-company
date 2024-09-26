@@ -15,12 +15,13 @@ function ChangeLanguage() {
 	return (
 		<Select onValueChange={change}>
 			<SelectTrigger>
-				<Languages className='text-primary'/>
+				<Languages className='text-primary' />
 				<SelectValue />
 			</SelectTrigger>
 			<SelectContent>
 				<SelectItem value='uz'>uz</SelectItem>
 				<SelectItem value='en'>en</SelectItem>
+				<SelectItem value='ru'>ru</SelectItem>
 			</SelectContent>
 		</Select>
 	)
