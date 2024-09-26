@@ -48,7 +48,7 @@ function Mobile() {
 				<div className='flex flex-col px-4 mt-4 gap-2'>
 					{' '}
 					<Button variant={'outline'} className='gap-2'>
-						<a href='tel:+998555067888'>
+						<a href='tel:+998555067888' className='flex items-center gap-2'>
 							<Phone className='size-4 text-blue-400' /> (+998) 55 506 78 88
 						</a>
 					</Button>

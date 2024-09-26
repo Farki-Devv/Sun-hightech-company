@@ -47,7 +47,7 @@ function Navbar() {
 						<ChangeLanguage />
 						<Button onClick={handleContact}>{t('document')}</Button>
 						<Button variant={'outline'} className='gap-2'>
-							<a href='tel:+998555067888'>
+							<a href='tel:+998555067888' className='flex gap-2 items-center'>
 								<Phone className='size-4 text-blue-400' /> (+998) 55 506 78 88
 							</a>
 						</Button>
