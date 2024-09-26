@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './index.css'
+import './lib/i18n'
 import Contact from './pages/contact'
 import Gallery from './pages/gallery'
 import Home from './pages/home'
@@ -10,7 +11,6 @@ import Solution from './pages/solution'
 import Work from './pages/work'
 import Footer from './shared/footer'
 import Navbar from './shared/navbar'
-
 function Layout() {
 	return (
 		<div>

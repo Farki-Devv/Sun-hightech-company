@@ -9,8 +9,10 @@ import Partner from '@/shared/partner'
 import ScrollToTop from '@/shared/scroll'
 import Works from '@/shared/works'
 import { Send } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 
 function Home() {
+	const { t } = useTranslation()
 	return (
 		<>
 			<div>
@@ -42,11 +44,9 @@ function Home() {
 									</div>
 									<div className='flex-grow pl-4'>
 										<h2 className='font-medium title-font text-sm text-gray-900 mb-1 tracking-wider'>
-											Biz kimmiz ?
+											{t('step1')}
 										</h2>
-										<p className='leading-relaxed'>
-											MChJ "SUN-HIGHTECH" YUQORI TEXNOLOGIYALAR
-										</p>
+										<p className='leading-relaxed'>{t('step2')}</p>
 									</div>
 								</div>
 								<div className='flex relative pb-12'>
@@ -68,17 +68,9 @@ function Home() {
 									</div>
 									<div className='flex-grow pl-4'>
 										<h2 className='font-medium title-font text-sm text-gray-900 mb-1 tracking-wider'>
-											Ba'tafsil ma'lumot
+											{t('step3')}
 										</h2>
-										<p className='leading-relaxed'>
-											«SUN-HIGHTECH» MChJ mutaxassislari 10 yildan ortiq vaqt
-											davomida professional ravishda Quyosh elektr stantsiyalari
-											va Quyosh suv isitgichlarini loyihalash, o’rnatish, ishlab
-											chiqarish va xizmat ko’rsatish bilan shug’ullanadi. Biz
-											avtonom, gibrid va tarmoq Quyosh elektr stantsiyalari va
-											Quyosh suv isitgichlarini loyihalash, ishlab chiqarish va
-											o’rnatish bo’yicha yuqori tajribaga egamiz
-										</p>
+										<p className='leading-relaxed'>{t('step4')}</p>
 									</div>
 								</div>
 								<div className='flex relative pb-12'>
@@ -101,16 +93,9 @@ function Home() {
 									</div>
 									<div className='flex-grow pl-4'>
 										<h2 className='font-medium title-font text-sm text-gray-900 mb-1 tracking-wider'>
-											Natijalarimiz
+											{t('step5')}
 										</h2>
-										<p className='leading-relaxed'>
-											Bugungi kunga qadar Respublikaning barcha hududlarida
-											korxona mutaxassislari tomonidan mingdan ortiq Quyosh
-											elektr stantsiyalari va Quyosh suv isitgichlari
-											o’rnatilgan. Korxona mutaxassislari ushbu sohada
-											Respublikamizda birinchilardan bo’lib amaliy jixatdan
-											shug’ullana boshlashgan.
-										</p>
+										<p className='leading-relaxed'>{t('step6')}</p>
 									</div>
 								</div>
 								<div className='flex relative pb-12'>
@@ -133,13 +118,9 @@ function Home() {
 									</div>
 									<div className='flex-grow pl-4'>
 										<h2 className='font-medium title-font text-sm text-gray-900 mb-1 tracking-wider'>
-											Mahsulot va Xizmatlarimiz
+											{t('step7')}
 										</h2>
-										<p className='leading-relaxed'>
-											Quyosh elektr stantsiyasi qismlari, Quyosh modullari ,
-											Quyosh batareyalari, Inverter stabik , Quyosh suv nasosi,
-											Fotovoltak
-										</p>
+										<p className='leading-relaxed'>{t('step8')}</p>
 									</div>
 								</div>
 								<div className='flex relative'>
@@ -159,13 +140,9 @@ function Home() {
 									</div>
 									<div className='flex-grow pl-4'>
 										<h2 className='font-medium title-font text-sm text-gray-900 mb-1 tracking-wider'>
-											Yangiliklar
+											{t('step9')}
 										</h2>
-										<p className='leading-relaxed'>
-											BIO sozlamalari ,Tabiat va quyosh stantsiyallari
-											kelajakda, Innovatsiyalar perovskitlar va yangi turdagi
-											quyosh xujayralari
-										</p>
+										<p className='leading-relaxed'>{t('step10')}</p>
 									</div>
 								</div>
 							</div>
@@ -187,27 +164,25 @@ function Home() {
 				<Partner />
 				<div className='max-w-7xl mx-auto h-96 card p-10'>
 					<div className='flex flex-col gap-4'>
-						<span className='max-md:text-2xl text-3xl'>
-							Biz bilan bog'laning
-						</span>
+						<span className='max-md:text-2xl text-3xl'>{t('us')}</span>
 						<div className='flex gap-10'>
 							<Input
 								className='h-16 rounded-md outline-none inputglass'
-								placeholder='Ismingiz'
+								placeholder={t('name')}
 							/>
 							<Input
 								className='h-16 rounded-md outline-none inputglass'
-								placeholder='Aloqa raqamingiz'
+								placeholder={t('number')}
 							/>
 						</div>
 						<div>
 							<Textarea
 								className='inputglass min-h-32 max-h-32'
-								placeholder='Habaringizni yozing'
+								placeholder={t('message')}
 							/>
 						</div>
 						<Button className='right-10 bottom-4 absolute flex items-center gap-2'>
-							Yuborish <Send className='size-4' />
+							{t('btn')} <Send className='size-4' />
 						</Button>
 					</div>
 				</div>

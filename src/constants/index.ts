@@ -1,98 +1,96 @@
 const navlink = [
 	{
-		label: 'Bosh sahifa',
+		label: 'nav1',
 		href: '/',
 	},
 	{
-		label: 'Yechimlar',
+		label: 'nav2',
 		href: '/solution',
 	},
 	{
-		label: 'Galereya',
+		label: 'nav3',
 		href: '/gallery',
 	},
 
 	{
-		label: 'Aloqa',
+		label: 'nav4',
 		href: '/contact',
 	},
 ]
 
 const advantages = [
 	{
-		title: 'Ishlab chiqarish',
-		description: `O'zbekistonning sanoat salohiyatiga xissa qo'shamiz`,
+		title: 'section2',
+		description: `section3`,
 		photo: './icon3.png',
 	},
 	{
-		title: 'Loyihalash va o`rnatish',
-		description: 'Quyosh elektr stantsiyalarini o`rnatamiz va ta`mirlaymiz',
+		title: 'section4',
+		description: 'section5',
 		photo: './icon2.png',
 	},
 	{
-		title: 'Kafolatlangan sifat',
-		description: 'Har bir loyihaga ma`sulyat bilan yondashamiz',
+		title: 'section6',
+		description: 'section7',
 		photo: './icon3.png',
 	},
 ]
 
 const modules = [
 	{
-		title: 'Quyosh modullari',
-		description: `Quyosh xujayrasi - bu yorug'lik energiyasini to'g'ridan-to'g'ri elektr energiyasiga aylantiruvchi moslama. U yarimo'tkazgich materiallaridan tayyorlangan. Quyosh nurlarining nurlanishi orqali elektron teshik juftlari hayajonlanadi va PN birikma to'siq mintaqasining elektrostatik maydoni elektron teshik juftlarini ajratish uchun ishlatiladi. Ajratilgan elektronlar va teshiklar yig'ilib, elektrod orqali batareyaning tashqi tomoniga oqim hosil qilish uchun chiqariladi',
-		kva: '4KVA`,
+		title: 'card1',
+		description: `card2`,
 		photo: './solar.png',
-		data: ['Kafolat', 'Sifatli', 'Xizmat', 'Narx', 'Ixcham', 'Loyihalash'],
+		data: ['card7', 'card8', 'card9', 'card10', 'card11', 'card12'],
 	},
 	{
-		title: 'Quyosh suv nasosi',
-		description: `Quyosh suv nasoslari mexanikada nisbatan yangi tushunchadir. Quyoshli nasos tizimi odatda uy-joy va tijorat maqsadlarida, shuningdek qishloq xo'jaligi erlarini sug'orishda uchraydi.Quyosh panellari orqali, nasos energiya narxini yo'q qilishi va suvni quyish uchun quyosh energiyasidan (va yonilg'i yoqadigan mexanizmlardan emas) foydalanadigan yanada maqbul variantni taqdim qilishi mumkin`,
+		title: 'card3',
+		description: `card4`,
 		kva: '4KVA',
 		photo: './water.png',
-		data: ['Kafolat', 'Sifatli', 'Xizmat', 'Narx', 'Ixcham', 'Loyihalash'],
+		data: ['card7', 'card8', 'card9', 'card10', 'card11', 'card12'],
 	},
 	{
-		title: 'Quyosh suv isitgichlari',
-		description: `Quyosh suv isitgichi - bu quyosh termal kollektori yordamida suvni isitish uchun quyosh nurlarini issiqlikka aylantirish. Turli xil iqlim va kengliklarda echimlarni taqdim etish uchun har xil narxlarda turli xil konfiguratsiyalar mavjud. Quyosh suv isitgichlari turar-joy binolari va ba'zi sanoat dasturlarda keng qo'llaniladi.`,
+		title: 'card5',
+		description: `card6`,
 		kva: '4KVA',
 		photo: './heater.png',
-		data: ['Kafolat', 'Sifatli', 'Xizmat', 'Narx', 'Ixcham', 'Loyihalash'],
+		data: ['card7', 'card8', 'card9', 'card10', 'card11', 'card12'],
 	},
 ]
 
 const numbers = [
 	{
 		name: '1548',
-		description: 'Kottej va uylar uchun Quyosh elektr stantsiyalari',
+		description: 'hero2',
 		photo: './gallery/housenumber.avif',
 	},
 	{
 		name: '6361',
-		description: 'Quyosh ko`cha yoritgichlari',
+		description: 'hero3',
 		photo: './light.jpeg',
 	},
 	{
 		name: '4042',
-		description:
-			'Amalga oshirilgan svetoforlar va quyosh energiyasi bilan ishlaydigan belgilar',
+		description: 'hero4',
 		photo: './svetafor.jpeg',
 	},
 ]
 
 const features = [
 	{
-		name: 'BIO sozlamalari',
-		description: 'Tabiat va quyosh stantsiyalari kelajakda',
+		name: 'new2',
+		description: 'new3',
 		photo: './feature.png',
 	},
 	{
-		name: 'Innovatisyalar',
-		description: 'Perovskitlar va yangi turdagi quyosh hujayralari',
+		name: 'new4',
+		description: 'new5',
 		photo: './star.png',
 	},
 	{
-		name: '3D Texnalogiyalari va quyosh qurilmalarining kelajagi',
-		description: 'Quyosh panellari',
+		name: 'new6',
+		description: 'new7',
 		photo: './colorful2.png',
 	},
 ]

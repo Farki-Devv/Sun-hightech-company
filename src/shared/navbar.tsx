@@ -1,6 +1,8 @@
 import { Button } from '@/components/ui/button'
 import { navlink } from '@/constants'
+import ChangeLanguage from '@/pages/change-language'
 import { Phone } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 import { NavLink, Outlet } from 'react-router-dom'
 import Logo from './logo'
 import Mobile from './mobile'
@@ -11,6 +13,7 @@ function Navbar() {
 			top: 3000,
 			behavior: 'smooth',
 		})
+	const { t } = useTranslation()
 	return (
 		<div className='max-w-9xl mx-auto space-y-4 '>
 			<div className='fixed mt-2 top-0 left-0 w-full z-50 '>
@@ -30,17 +33,19 @@ function Navbar() {
 											: 'lg:text-sm xl:text-lg font-normal'
 									}
 								>
-									{nav.label}
+									{t(nav.label)}
 								</NavLink>
 							))}
 						</div>
 						<div />
-						<div className='hidden max-md:flex'>
+						<div className='hidden max-md:flex gap-2'>
+							<ChangeLanguage />
 							<Mobile />
 						</div>
 					</div>
-					<div className='md:gap-4 hidden lg:flex'>
-						<Button onClick={handleContact}>Ariza qoldiring</Button>
+					<div className='md:gap-4 hidden lg:flex items-center'>
+						<ChangeLanguage />
+						<Button onClick={handleContact}>{t('document')}</Button>
 						<Button variant={'outline'} className='gap-2'>
 							<Phone className='size-4 text-blue-400' />
 							(+998) 55 506 78 88
