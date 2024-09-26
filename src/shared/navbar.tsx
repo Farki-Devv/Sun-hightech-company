@@ -16,8 +16,8 @@ function Navbar() {
 	const { t } = useTranslation()
 	return (
 		<div className='max-w-9xl mx-auto space-y-4 '>
-			<div className='fixed mt-2 top-0 left-0 w-full z-50 '>
-				<div className=' flex justify-between max-w-9xl mx-auto items-center px-4 font-roboto border-b-2 p-2 bg-gradient-to-r rounded cardbar'>
+			<div className='fixed mt-2 top-0 left-0 w-full z-50 max-md:px-2'>
+				<div className='flex justify-between max-w-9xl mx-auto items-center px-4 font-roboto border-b-2 p-2 bg-gradient-to-r rounded cardbar'>
 					<div className='flex justify-between md:gap-10 items-center w-full pr-4'>
 						<Logo />
 						<div className='flex md:gap-6 max-md:hidden'>
