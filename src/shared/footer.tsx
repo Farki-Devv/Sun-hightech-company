@@ -37,7 +37,7 @@ function Footer() {
 						<h2 className='title-font font-medium text-gray-900 tracking-widest text-sm mb-3'>
 							{t('subscribe')}
 						</h2>
-						<div className='flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start'>
+						<div className='flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start space-y-2'>
 							<div className='relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2'>
 								<label
 									htmlFor='footer-field'
